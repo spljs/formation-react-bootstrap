@@ -1,23 +1,10 @@
 function App() {
 
+    fetch('http://localhost:3000/posts').then(r => r.json()).then(console.log)
+
     return (
         <div className="App">
             <h1>My app</h1>
-            <button>My page</button>
-            <input type="text" placeholder="Input your name here"/>
-            <fieldset>
-                <legend>Test</legend>
-
-                <div>
-                    <input type="checkbox"/>
-                    <label>A</label>
-                </div>
-
-                <div>
-                    <input type="checkbox"/>
-                    <label>B</label>
-                </div>
-            </fieldset>
         </div>
     )
 }

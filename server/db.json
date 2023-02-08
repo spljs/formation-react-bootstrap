@@ -3,7 +3,8 @@
     {
       "id": 1,
       "title": "lowdb is awesome",
-      "text": "Hello c'est mon poste"
+      "text": "Hello c'est mon post"
     }
-  ]
+  ],
+  "users": []
 }
